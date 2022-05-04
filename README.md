@@ -26,9 +26,9 @@ Assim, lendo o Texto A, é possível identificar 26 verbos no texto, dos quais 2
 <br>
 **Questão**<br>
 1 - E no Texto B, quantas preposições existem?<br>
-**Resposta** = <br>
+**Resposta** = 30 <br>
 2 - E quantos verbos do Texto B estão em primeira pessoa?<br>
-**Resposta** = 
+**Resposta** = 25
 <hr>
 
 **Desafio 3**

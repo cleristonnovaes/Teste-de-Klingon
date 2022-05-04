@@ -4,20 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Teste_de_Klingon
+namespace Teste_de_Klingon.Desafios
 {
-    public class Desafio1
+    public class Desafio2b
     {
         private readonly string _foo = "slfwek";
-        
-        public int GetProposicoes(string texto)
+
+        public int GetVerbosPrimeira(string texto)
         {
             var qtde = 0;
 
             foreach (var word in texto.Split(" "))
             {
                 var lastWord = word[word.Length - 1];
-                if(word.Length == 3 && !_foo.Contains(lastWord) && !word.Contains("d"))
+                var firstWord = word[0];
+
+                if (word.Length >= 8 && _foo.Contains(lastWord) && !_foo.Contains(firstWord))
                 {
                     qtde++;
                 }
@@ -25,7 +27,5 @@ namespace Teste_de_Klingon
             }
             return qtde;
         }
-       
-      
     }
 }
