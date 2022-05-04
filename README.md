@@ -13,6 +13,7 @@ Primeiramente, as letras Klingon são classificadas em dois grupos: as letras s,
 Os linguistas descobriram que as preposições em Klingon são as palavras de 3 letras que terminam numa letra tipo bar, mas onde não ocorre a letra d. Portanto, é fácil ver que existem 63 preposições no Texto A.<br>
 **Questão**<br>
 E no Texto B, quantas preposições existem?<br>
+**Resposta** = 61
 <hr>
 
 **Desafio 2**
