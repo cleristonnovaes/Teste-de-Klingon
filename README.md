@@ -26,7 +26,9 @@ Assim, lendo o Texto A, é possível identificar 26 verbos no texto, dos quais 2
 <br>
 **Questão**<br>
 1 - E no Texto B, quantas preposições existem?<br>
-2 - E quantos verbos do Texto B estão em primeira pessoa?
+**Resposta** = <br>
+2 - E quantos verbos do Texto B estão em primeira pessoa?<br>
+**Resposta** = 
 <hr>
 
 **Desafio 3**
@@ -44,6 +46,7 @@ https://raw.githubusercontent.com/f360-dev/provas/master/klingon-textoA-ordenado
 <br>
 **Questão**<br>
 Como seria a lista de vocabulário do Texto B?<br>
+**Resposta** = 
 <hr>
 
 **Desafio 4**
@@ -65,4 +68,5 @@ Ao consideramos o Texto A como uma lista de números (isto é, interpretando cad
 <br>
 **Questão**<br>
 E no Texto B, quantos números bonitos distintos existem?<br>
+**Resposta** = 
 <hr>
