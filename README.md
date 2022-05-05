@@ -46,7 +46,7 @@ https://raw.githubusercontent.com/f360-dev/provas/master/klingon-textoA-ordenado
 <br>
 **Questão**<br>
 Como seria a lista de vocabulário do Texto B?<br>
-**Resposta** = 
+**Resposta** = https://raw.githubusercontent.com/cleristonnovaes/Teste-de-Klingon/master/textoOrdernadoB.txt?token=GHSAT0AAAAAABUG4RQ7L74XYBYCH6QQD75SYTTZ2JQ
 <hr>
 
 **Desafio 4**

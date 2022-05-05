@@ -18,26 +18,31 @@ namespace Teste_de_Klingon
             var textoB = File.ReadAllText(pathTextoB, Encoding.UTF8);
 
 
-            //// Desafio 1
-            //Preposicao desafio1 = new Preposicao();
-            //var questao1 = desafio1.GetValor(textoB, _foo); 
-            //Console.WriteLine("O total de preposições são: " + questao1);
+            // Desafio 1
+            Preposicao desafio1 = new Preposicao();
+            var questao1 = desafio1.GetValor(textoB, _foo);
+            Console.WriteLine("O total de preposições são: " + questao1);
 
-            ////Desafio 2a - Total Verbos
-            //VerboTotal desafio2a = new VerboTotal();
-            //var questao2a = desafio2a.GetValor(textoB, _foo);
-            //Console.WriteLine("O total de Verbos são: " + questao2a);
+            ///Desafio 2a - Total Verbos
+            VerboTotal desafio2a = new VerboTotal();
+            var questao2a = desafio2a.GetValor(textoB, _foo);
+            Console.WriteLine("O total de Verbos são: " + questao2a);
 
-            ////Desafio 2b - Total Verbos Primeira Pessoa
-            //VerboPrimeira desafio2b = new VerboPrimeira();
-            //var questao2b = desafio2b.GetValor(textoB, _foo);
-            //Console.WriteLine("O total de Verbos em primeira pessoa são: " + questao2b);
+            //Desafio 2b - Total Verbos Primeira Pessoa
+            VerboPrimeira desafio2b = new VerboPrimeira();
+            var questao2b = desafio2b.GetValor(textoB, _foo);
+            Console.WriteLine("O total de Verbos em primeira pessoa são: " + questao2b);
 
+            //Desafio 3 - Lista de vocabulário em Klingon
             VocabularioKlingon desafio3 = new VocabularioKlingon();
             var questao3 = desafio3.GetVocabulario(textoB);
-            StreamWriter sw = new StreamWriter("D:/C#/Teste de Klingon/textoOrdernadoB.txt", true, Encoding.UTF8);
-            sw.Write(questao3);
-            sw.Close();
+            Console.WriteLine("Abaixo Lista de vocabulário ordenado Texto B");
+            Console.WriteLine(questao3);
+
+            //StreamWriter utilizado para criação do arquivo txt
+            //StreamWriter sw = new StreamWriter("D:/C#/Teste de Klingon/textoOrdernadoB.txt", true, Encoding.UTF8);
+            //sw.Write(questao3);
+            //sw.Close();
 
             Console.ReadKey();
 
