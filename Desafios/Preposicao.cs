@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Teste_de_Klingon.Desafios;
 
 namespace Teste_de_Klingon
 {
-    public class Desafio1
+    public class Preposicao : IDesafio
     {
-        private readonly string _foo = "slfwek";
-        
-        public int GetProposicoes(string texto)
+        public int GetValor(string texto, string _foo)
         {
             var qtde = 0;
 
