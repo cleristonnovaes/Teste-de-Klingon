@@ -11,18 +11,18 @@ namespace Teste_de_Klingon
     {
         public int GetValor(string texto, string _foo)
         {
-            var qtde = 0;
+            var count = 0;
 
             foreach (var word in texto.Split(" "))
             {
                 var lastWord = word[word.Length - 1];
                 if(word.Length == 3 && !_foo.Contains(lastWord) && !word.Contains("d"))
                 {
-                    qtde++;
+                    count++;
                 }
 
             }
-            return qtde;
+            return count;
         }
        
       

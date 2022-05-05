@@ -11,7 +11,7 @@ namespace Teste_de_Klingon.Desafios
         public int GetValor(string texto, string _foo)
         {
 
-            var qtde = 0;
+            var count = 0;
 
             foreach (var word in texto.Split(" "))
             {
@@ -19,11 +19,11 @@ namespace Teste_de_Klingon.Desafios
 
                 if (word.Length >= 8 && _foo.Contains(lastWord))
                 {
-                    qtde++;
+                    count++;
                 }
 
             }
-            return qtde;
+            return count;
         }
     }
 }
