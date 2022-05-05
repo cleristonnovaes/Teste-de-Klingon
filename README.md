@@ -68,5 +68,5 @@ Ao consideramos o Texto A como uma lista de números (isto é, interpretando cad
 <br>
 **Questão**<br>
 E no Texto B, quantos números bonitos distintos existem?<br>
-**Resposta** = 
+**Resposta** = 122
 <hr>

@@ -23,7 +23,7 @@ namespace Teste_de_Klingon
             var questao1 = desafio1.GetValor(textoB, _foo);
             Console.WriteLine("O total de preposições são: " + questao1);
 
-            ///Desafio 2a - Total Verbos
+            //Desafio 2a - Total Verbos
             VerboTotal desafio2a = new VerboTotal();
             var questao2a = desafio2a.GetValor(textoB, _foo);
             Console.WriteLine("O total de Verbos são: " + questao2a);
@@ -43,6 +43,11 @@ namespace Teste_de_Klingon
             //StreamWriter sw = new StreamWriter("D:/C#/Teste de Klingon/textoOrdernadoB.txt", true, Encoding.UTF8);
             //sw.Write(questao3);
             //sw.Close();
+
+            NumerosBonitos desafio4 = new NumerosBonitos();
+            var questao4 = desafio4.GetValor(textoB);
+
+            Console.WriteLine(questao4);
 
             Console.ReadKey();
 
