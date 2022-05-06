@@ -1,4 +1,4 @@
-## Teste de Klingon 🖖
+## Teste de Klingon
 **Desafio 1**
 
 Arqueólogos encontraram um pergaminho com os seguintes textos:<br><br>

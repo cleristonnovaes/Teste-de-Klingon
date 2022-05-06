@@ -10,8 +10,8 @@ namespace Teste_de_Klingon
     {
         static void Main(string[] args)
         {
-            var pathTextoA = "D:/C#/Teste de Klingon/klingon-textoA.txt";
-            var pathTextoB = "D:/C#/Teste de Klingon/klingon-textoB.txt";
+            var pathTextoA = @"klingon-textoA.txt";
+            var pathTextoB = @"klingon-textoB.txt";
             var _foo = "slfwek";
 
             var textoA = File.ReadAllText(pathTextoA, Encoding.UTF8);
@@ -40,7 +40,7 @@ namespace Teste_de_Klingon
             Console.WriteLine(questao3);
 
             //StreamWriter utilizado para criação do arquivo txt
-            //StreamWriter sw = new StreamWriter("D:/C#/Teste de Klingon/textoOrdernadoB.txt", true, Encoding.UTF8);
+            //StreamWriter sw = new StreamWriter(@"textoOrdernadoB.txt", true, Encoding.UTF8);
             //sw.Write(questao3);
             //sw.Close();
 
