@@ -14,7 +14,7 @@ namespace Teste_de_Klingon.Desafios
 
             foreach (var word in texto.Split(" "))
             {
-                var lastWord = word[word.Length - 1];
+                var lastWord = word[^1];
                 var firstWord = word[0];
 
                 if (word.Length >= 8 && _foo.Contains(lastWord) && !_foo.Contains(firstWord))

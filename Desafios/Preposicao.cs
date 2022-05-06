@@ -15,7 +15,7 @@ namespace Teste_de_Klingon
 
             foreach (var word in texto.Split(" "))
             {
-                var lastWord = word[word.Length - 1];
+                var lastWord = word[^1];
                 if(word.Length == 3 && !_foo.Contains(lastWord) && !word.Contains("d"))
                 {
                     count++;

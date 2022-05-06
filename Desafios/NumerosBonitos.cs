@@ -11,7 +11,7 @@ namespace Teste_de_Klingon.Desafios
         
         public int GetValor(string texto)
         {
-            List <char> alfabetoKlingon = new List<char> { 'k', 'b', 'w', 'r', 'q', 'd', 'n', 'f', 'x', 'j', 'm', 'l', 'v', 'h', 't', 'c', 'g', 'z', 'p', 's' };
+            List <char> alfabetoKlingon = new() { 'k', 'b', 'w', 'r', 'q', 'd', 'n', 'f', 'x', 'j', 'm', 'l', 'v', 'h', 't', 'c', 'g', 'z', 'p', 's' };
             int countBonitos = 0;
 
             foreach (var palavras in texto.Split(" "))

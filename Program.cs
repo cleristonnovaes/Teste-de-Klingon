@@ -18,7 +18,7 @@ namespace Teste_de_Klingon
             var textoB = File.ReadAllText(pathTextoB, Encoding.UTF8);
 
 
-            // Desafio 1
+            // Desafio 1 - Total de Preposições
             Preposicao desafio1 = new Preposicao();
             var questao1 = desafio1.GetValor(textoB, _foo);
             Console.WriteLine("O total de preposições são: " + questao1);
@@ -36,7 +36,7 @@ namespace Teste_de_Klingon
             //Desafio 3 - Lista de vocabulário em Klingon
             VocabularioKlingon desafio3 = new VocabularioKlingon();
             var questao3 = desafio3.GetVocabulario(textoB);
-            Console.WriteLine("Abaixo Lista de vocabulário ordenado Texto B");
+            Console.WriteLine("Abaixo Lista de vocabulário ordenado Texto B: ");
             Console.WriteLine(questao3);
 
             //StreamWriter utilizado para criação do arquivo txt
@@ -44,6 +44,7 @@ namespace Teste_de_Klingon
             //sw.Write(questao3);
             //sw.Close();
 
+            //Desafio 4 - Total Números Bonitos
             NumerosBonitos desafio4 = new NumerosBonitos();
             var questao4 = desafio4.GetValor(textoB);
 
