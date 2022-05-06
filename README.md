@@ -13,7 +13,6 @@ Primeiramente, as letras Klingon são classificadas em dois grupos: as letras s,
 Os linguistas descobriram que as preposições em Klingon são as palavras de 3 letras que terminam numa letra tipo bar, mas onde não ocorre a letra d. Portanto, é fácil ver que existem 63 preposições no Texto A.<br>
 **Questão**<br>
 E no Texto B, quantas preposições existem?<br>
-**Resposta** = 61
 <hr>
 
 **Desafio 2**
@@ -26,9 +25,7 @@ Assim, lendo o Texto A, é possível identificar 26 verbos no texto, dos quais 2
 <br>
 **Questão**<br>
 1 - E no Texto B, quantas preposições existem?<br>
-**Resposta** = 30 <br>
 2 - E quantos verbos do Texto B estão em primeira pessoa?<br>
-**Resposta** = 25
 <hr>
 
 **Desafio 3**
@@ -46,7 +43,6 @@ https://raw.githubusercontent.com/f360-dev/provas/master/klingon-textoA-ordenado
 <br>
 **Questão**<br>
 Como seria a lista de vocabulário do Texto B?<br>
-**Resposta** = https://raw.githubusercontent.com/cleristonnovaes/Teste-de-Klingon/master/textoOrdernadoB.txt?token=GHSAT0AAAAAABUG4RQ7L74XYBYCH6QQD75SYTTZ2JQ
 <hr>
 
 **Desafio 4**
@@ -68,5 +64,4 @@ Ao consideramos o Texto A como uma lista de números (isto é, interpretando cad
 <br>
 **Questão**<br>
 E no Texto B, quantos números bonitos distintos existem?<br>
-**Resposta** = 122
 <hr>
